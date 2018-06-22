@@ -1,0 +1,265 @@
+
+<html>
+  <title>Atelier d'architecture Tardy</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+    body, html {
+      height: 100%;
+      color: #777;
+      line-height: 1.8;
+    }
+
+
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+
+    .bgimg-1 {
+      background-image: url(https://images.divisare.com/images/c_limit,f_auto,h_2000,q_auto,w_3000/v1507026286/aw0l6gwv5nzwrf5tibs9/atelier-d-architecture-tardy-cornu-sa-s-biscuit-factory-la-fabrique.jpg);
+      min-height: 100%;
+    }
+
+
+    .bgimg-2 {
+      background-image: url(https://scontent-cdt1-1.xx.fbcdn.net/v/t31.0-8/14409420_1725151227749426_4534429683990000359_o.jpg?_nc_cat=0&oh=a73a1c71d1bae8523c4b08c6beec741d&oe=5BBDCB0B);
+      min-height: 400px;
+    }
+
+
+    .bgimg-3 {
+      background-image: url(https://scontent-cdt1-1.xx.fbcdn.net/v/t31.0-8/17991504_1827625427502005_8053986961092543608_o.jpg?_nc_cat=0&oh=88808e60feef8b758344b2c30ae0bc64&oe=5BBD0D59);
+      min-height: 400px;
+    }
+
+    .w3-wide {letter-spacing: 10px;}
+    .w3-hover-opacity {cursor: pointer;}
+
+
+    @media only screen and (max-device-width: 1024px) {
+      .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+      }
+    }
+  </style>
+  <body>
+
+
+    <div class="w3-top">
+      <div class="w3-bar" id="myNavbar">
+        <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+          <i class="fa fa-bars"></i>
+        </a>
+        <a href="#home" class="w3-bar-item w3-button">ACCEUIL</a>
+        <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> A PROPOS</a>
+        <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> REALISATION </a>
+        <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+      </div>
+
+
+      <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+        <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ACCEUIL</a>
+        <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">A PROPOS</a>
+        <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">REALISATION </a>
+      </div>
+    </div>
+
+
+    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+      <div class="w3-display-middle" style="white-space:nowrap;">
+        <img class="w3-animate-zoom " src="photo/tardy%20logo.jpg" alt="Description de l’image" />"
+      </div>
+    </div>
+
+
+    <div class="w3-content w3-container w3-padding-64" id="about">
+      <h3 class="w3-center">Atelier d'architecture Tardy</h3>
+      <p>L'atelier d'architecture Tardy a ete fonde en 2003 par l'architecte Olivier Tardy. En 2011, l'agence s'installe sur les hauteur de Besançon. Depuis 2017, Elle dispose d'une annexe a Morez, dans le haut Jura.<br>Lieu de partage de projets et d'echange d'idées, l'atelier d'architecture tardy regroupe de multiple competences. Le bureau se compose de huit collaborateur dont cinq architecte diplome.Grace a leur savoir faire, l'agence emploie des methides d'organisation et de gestion rigoureuse pour concevoir des projets contemporains et durables a l'identites assumée,que ce soit a l'echelle du batiment ou celle du mobilier.Les projets sobnt elaborés avec un demarche engagée sur le plan ecologique, social, esthetique, technique, patrimonial ou encore urbain.  </p>
+      <div class="w3-row">
+        <div class="w3-col m6 w3-center w3-padding-large">
+          <img src="photo/tardy%20logo.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="300" height="333">
+        </div>
+
+    
+        <div class="w3-col m6 w3-hide-small w3-padding-large">
+          <p>L'atelier d'architecture tardy ne cesse de developper son outil et ses compétences depuis sa creation l'objectif est de pouvoir proposer des prestatiobs a la hauteur des exigense des maitre d'ouvrage, en exploitant l'autonomie gagnée grace aux investissement en materiels, et ce des le demarrage des études.Ces investissements s'inscrivent dans une demarche de developpement durable </p>
+        </div>
+      </div>
+      <p class="w3-large w3-center w3-padding-16">EFFECTIFS :
+      <p class="w3-wide"><i class="fa fa-chart-line"></i>2014</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:10%">10</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-chart-line"></i>2016</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:27%">11</div>
+      </div>
+      <p class="w3-wide"><i class="fas fa-chart-line"></i>2017</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:8%">9</div>
+      </div>
+    </div>
+
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">30+</span><br>
+        Publications <span class="glyphicon glyphicon-book"></span>
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">130+</span><br>
+        Projets <span class="glyphicon glyphicon-road"></span>
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">89+</span><br>
+        Prix  <span class="glyphicon glyphicon-education"></span>
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">3</span><br>
+        Conferences  <span class="glyphicon glyphicon-pushpin"></span>
+      </div>
+    </div>
+
+
+    <div class="bgimg-2 w3-display-container w3-opacity-min">
+      <div class="w3-display-middle">
+        <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+      </div>
+    </div>
+
+
+    <div class="w3-content w3-container w3-padding-64" id="portfolio">
+      <h3 class="w3-center">Nos Realisations</h3>
+      <div class="w3-row-padding w3-center">
+        <div class="w3-col m3">
+          <img src="https://scontent-cdt1-1.xx.fbcdn.net/v/t31.0-8/14409420_1725151227749426_4534429683990000359_o.jpg?_nc_cat=0&oh=a73a1c71d1bae8523c4b08c6beec741d&oe=5BBDCB0B" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="La maison relais">
+        </div>
+        <div class="w3-col m3">
+          <img src="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/12208672_1613125462285337_7755292266497706591_n.jpg?_nc_cat=0&oh=a2ac099133b721f581b9c4c4fe876adb&oe=5BA30438" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Pole scientifique Lycée Louis pasteur">
+        </div>
+        <div class="w3-col m3">
+          <img src="https://images.divisare.com/images/ar_1:1,c_fill,dpr_1.0,e_saturation:-70,f_auto,q_auto,w_500/v1497874572/yazhfyrwywaoogvgrgsk/montfaucon-s-town-hall.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Mairie de MontFaucon">
+        </div>
+        <div class="w3-col m3">
+          <img src="photo/d.PNG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" >
+        </div>
+      </div>
+      <div class="w3-row-padding w3-center w3-section">
+        <div class="w3-col m3">
+          <img src="photo/f.PNG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" >
+        </div>
+        <div class="w3-col m3">
+          <img src="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/11403386_1579605015637382_1542726210693311361_n.jpg?_nc_cat=0&oh=2fe69bf3e2a28cff5d9e5b7eefd1d769&oe=5BBB4D51" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="La manufacture de lunetterie">
+        </div>
+        <div class="w3-col m3">
+          <img src="https://scontent-cdt1-1.xx.fbcdn.net/v/t31.0-8/15936727_1775527026045179_2680306373670975494_o.jpg?_nc_cat=0&oh=44bed02f9d49bb30a90acac03e511535&oe=5BBEE811" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Manufacture jurassienne">
+        </div>
+        <div>
+        </div>
+        <a class="link" href="Protfolio.html"><button class="w3-button w3-hover-dark-white w3-padding-large w3-light-grey "  style="margin-top:64px">VOIR PLUS</button></a>
+      </div>
+    </div>
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+      <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+      <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+        <img id="img01" class="w3-image">
+        <p id="caption" class="w3-opacity w3-large"></p>
+      </div>
+    </div>
+    <div class="bgimg-3 w3-display-container w3-opacity-min">
+      <div class="w3-display-middle">
+        <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+      </div>
+    </div>
+    <div class="w3-content w3-container w3-padding-64" id="contact">
+      <h3 class="w3-center">Ou travaillons nous ?</h3>
+      <div class="w3-row w3-padding-32 w3-section">
+        <div class="w3-col m4 w3-container">
+          <div>
+            <img src="photo/Capture.PNG" id="map" onclick="onClick(this)" class="w3-hover-opacity  responsive ">
+          </div>
+        </div>
+        
+        <div class="w3-col m8 w3-panel">
+          <div class="w3-large w3-margin-bottom">
+            <a class="fa fa-map-marker w3-white w3-hover-text-black w3-xlarge w3-margin-right" href="https://goo.gl/maps/fXggakaidLy"></a> 38, chemin des Ragots
+            25000 Besançon (siège)<br>
+            <i  class="fa fa-phone w3-white fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> tel: 03 81 51 59 25<br>
+          <form action="/action_page.php" target="_blank">
+            <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+              <div class="w3-half">
+                <input class="w3-input w3-border" type="text" placeholder="Nom" required name="Name">
+              </div>
+              <div class="w3-half">
+                <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+              </div>
+            </div>
+            <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+            <button class="w3-button w3-dark-grey w3-right w3-section" type="submit">
+              <i class="fa fa-paper-plane"></i> Envoyer
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+      
+    <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-on">
+      <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>retour en haut </a>
+      <div class="w3-xlarge w3-section">
+        <a class="fa fa-facebook-official w3-hover-opacity" href="https://www.facebook.com/atelier.architecture.tardy"></a>
+        <a class="fa fa-pinterest-p w3-hover-opacity" href="https://www.pinterest.fr/TardyArchitecte/"></a>
+        <a class="fa fa-houzz" href="https://www.houzz.fr/pro/o-tardy/atelier-d-architecture-tardy"></a>
+        <a class="fa fa-dashcube" href="https://atelier-d-architecture-tardy.divisare.pro/"></a>
+        <a class="fa fa-codiepie" href="http://www.caue-observatoire.fr/?s=tardy&ctl00%24cphResults%24ctl00%24listOuvrages%24ctl01%24btRechercheLib="></a>
+      </div>
+      <p>Powered by <a href="https://www.instagram.com/nicolas_stenger/?hl=fr" title="nicolas" target="_blank" class="w3-hover-text-white">Nicolas Stenger</a></p>
+      <p>Photo Credit by <a href="http://photo-architecture.tumblr.com/" title="nicolas" target="_blank" class="w3-hover-text-white">Nicolas Walterfaugle</a></p>
+    </footer>
+    <script>
+
+
+      
+
+      function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+      }
+
+      
+      window.onscroll = function() {myFunction()};
+      function myFunction() {
+        var navbar = document.getElementById("myNavbar");
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+          navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+        } else {
+          navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+        }
+      }
+
+      
+      function toggleFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else {
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+      
+    </script>
+    </div>
+  </body>
+</html>
